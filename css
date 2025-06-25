@@ -1,0 +1,25 @@
+.menu{
+    position:absolute ;
+  margin: 0;
+  top: 0;
+    width: 100%;
+    height: 100px;
+    left: 0;
+    background-color: blue;
+}
+.menu ul{
+position: absolute;
+top: 0;
+}
+.menu li{
+    position: absolute;
+ list-style: none;
+
+
+}
+.menu a{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+} 
