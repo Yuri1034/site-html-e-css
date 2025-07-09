@@ -7,11 +7,10 @@ html{
     position: absolute;
     margin: 0;
     top: 0;
-    width: 100vw;
-    height: 50px;
+    width: 80vw;
+    height: 10px;
     left: 0;
-    background-color: blue;
-    
+    background-color: rgb(152, 163, 86);
 }
 
 .menu ul {
@@ -20,7 +19,11 @@ html{
     padding-right: 30px;
     left: 50vw;
     right: 40px;
-
+    left: 60px;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 400px;
 }
 
 .menu li {
@@ -28,25 +31,53 @@ html{
     list-style: none;
     right: 40px;
     display: inline-block;
-    padding-inline: 20px;
-    padding-top: 15px;
+    padding-inline: 10px;
+    padding-top: 0px;
 }
 
 .menu a {
     position: 100px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    right: 40px;
-     font-family: "Montserrat", sans-serif;
-     font-weight: 500;
+    left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding-inline: 5px;
 }
-.menu a:hover{
-color: rgb(35, 190, 190);
-transition: ease-in-out 0.2s;
+
+body {
+    color: aliceblue;
+    background-color: black;
 }
-.titulo{
+
+.p {
+    text-size-adjust: 15px;
+    width: 10px;
+    height: 10px;
+}
+
+.menu a:hover {
+    color: rgb(59, 83, 83);
+    transition: ease-in-out 0.2s;
+}
+
+.titulo {
     position: inherit;
-     font-family: "Bitcount Grid Double", system-ui;
-     color: azure;
-     left: 5vw ;
+    font-family: "bitcount Grid Double", system-ui;
+    color: azure;
+    left: 5vw;
+}
+
+img {
+    width: 80px;
+    border-radius: 100%;
+    border: 2px solid rgba(172, 157, 29, 0.658);
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(185, 185, 58);
 }
